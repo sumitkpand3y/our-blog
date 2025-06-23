@@ -223,7 +223,7 @@ export default function HomePage() {
         <meta name="description" content="Medium is an open platform where readers find dynamic thinking, and where expert and undiscovered voices can share their writing on any topic." />
       </Head>
       
-      <Navbar />
+      {/* <Navbar /> */}
       
       {/* Show different content based on authentication status */}
       {session ? <Dashboard /> : <LandingPage />}
